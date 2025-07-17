@@ -1,5 +1,3 @@
-import React from 'react';
-
 import Products from './components/Products';
 
 const products = [
@@ -87,7 +85,7 @@ const App = () => {
   return (
     <div>
       <h1 className="title">BD Store</h1>
-      <Products  />
+      <Products products={products} />
     </div>
   );
 };
